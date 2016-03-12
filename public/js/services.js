@@ -12,4 +12,15 @@ app.service('SwapiService', function($http) {
       console.log('error in the services get people:', err);
     });
   };
-})
+
+  this.getUrls = (num) => {
+    $http.get(`http://swapi.co/api/people/?page=${num}`)
+      .then((res) => {
+        this.people = res.data.results;
+        console.log(res);
+      }, (err) => {
+        console.log(err);
+      });
+  };
+
+});
