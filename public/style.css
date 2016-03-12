@@ -1,0 +1,32 @@
+body {
+  background-color: #FEFEFE;
+}
+
+#logo {
+  width: 290px;
+  height: 200px;
+}
+
+.logoHolder {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 125px;
+}
+
+.row {
+  margin-bottom: 100px;
+}
+.paginationDiv {
+  text-align: center;
+}
+
+.charLink {
+  color: #E6CF90;
+}
+
+.swGif {
+  margin-bottom: -30px;
+  width: 97px;
+  height: 82px;
+  margin-top: -13px;
+}
