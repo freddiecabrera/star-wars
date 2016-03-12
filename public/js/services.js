@@ -14,7 +14,7 @@ app.service('SwapiService', function($http) {
   };
 
   this.getUrls = (num) => {
-    $http.get(`http://swapi.co/api/people/?page=${num}`)
+    $http.get(`https://swapi.co/api/people/?page=${num}`)
       .then((res) => {
         this.people = res.data.results;
         console.log(res);
